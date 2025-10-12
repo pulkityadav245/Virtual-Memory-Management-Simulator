@@ -2,7 +2,7 @@
 
 import openai
 
-openai.api_key = "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"
+openai.api_key = "My Open_API key "
 
 def explain_event(log):
     prompt = f"Explain the following OS simulator event:\n{log}\n"
